@@ -18,13 +18,23 @@
 <table>
   <tr>
     <td>
-      <video src="./media/input_scene.mp4" width="300" controls></video>
+      <video src="
+
+https://github.com/user-attachments/assets/68399634-362c-4de6-b713-28a0f80fd2a0
+
+" width="300" controls></video>
     </td>
     <td>
-      <video src="./media/dxm1_int8.mp4" width="300" controls></video>
+https://github.com/user-attachments/assets/1a9a9362-d7e4-414a-8f29-2a53a2b40882
+
+" width="300" controls></video>
     </td>
     <td>
-      <video src="./media/xavier_int8" width="300" controls></video>
+      <video src="
+
+https://github.com/user-attachments/assets/488c422d-9428-4bd1-a837-6ee93866b8ac
+
+" width="300" controls></video>
     </td>
   </tr>
 </table>
