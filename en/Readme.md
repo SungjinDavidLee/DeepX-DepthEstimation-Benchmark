@@ -27,6 +27,10 @@ DX-M1 is faster on convolution-heavy models; Xavier is faster on transformer-bas
 
 Thor (120 W mode) is fastest across all tasks. Its power budget differs substantially from the two platforms above, so it is not placed in the same table. Figures are in [3-3](#3-3-reference--thor-120-w-mode).
 
+**Qualitative comparison**
+
+Depth map output videos, produced by running the same input clip on all three platforms, are in [docs/qualitative.md](../docs/qualitative.md) and [media/](../media/). Measurement conditions differ from this document, so the two sets of figures should not be mixed.
+
 ---
 
 ## 2. Measurement environments
@@ -106,7 +110,7 @@ Measured with `trtexec`.
 | Depth estimation ViT-S | 224² | 13.90 ms | 14.05 ms | 71.94 qps | 13.16 W | 5.47 |
 | Depth estimation ViT-B | 224² | 31.87 ms | 32.07 ms | 31.38 qps | 14.23 W | 2.21 |
 
-**INT8** (no calibration)
+**INT8** (no calibration — see 5-4)
 
 | Task | Input | GPU compute | p99 | Throughput | Power | FPS/W |
 |---|---|---|---|---|---|---|
@@ -130,7 +134,7 @@ The power budget differs substantially from the two platforms above. These figur
 | Depth estimation ViT-S | 224² | 1.214 ms | 1.397 ms | 801.46 qps | 58.76 W | 13.64 |
 | Depth estimation ViT-B | 224² | 1.999 ms | 2.145 ms | 488.83 qps | 82.55 W | 5.92 |
 
-**INT8** (no calibration)
+**INT8** (no calibration — see 5-4)
 
 | Task | Input | GPU compute | p99 | Throughput | Power | FPS/W |
 |---|---|---|---|---|---|---|
@@ -256,7 +260,13 @@ There is no onboard power sensor. `dxrt-cli --status` reports NPU voltage (750 m
 
 ### 5-4. INT8 calibration was not performed
 
-Engines were built with `trtexec --int8 --fp16` without a calibration dataset. This is valid for latency and throughput measurement but **accuracy is not guaranteed.**
+The Jetson INT8 figures in section 3 come from engines built with `trtexec --int8 --fp16` without a calibration dataset. This is valid for latency, throughput, and power measurement, but **accuracy is not guaranteed.**
+
+Inspecting the output quality of these engines revealed that **depth estimation output collapsed**: the entire frame compressed to near a single colour, making depth distinctions impossible. Applying calibration restored normal gradation with no change in speed (4.05 ms to 4.20 ms, within measurement variance).
+
+Details are in [docs/qualitative.md](../docs/qualitative.md), section 4.
+
+DX-M1 output is normal because calibration is applied at vendor compile time. Section 3's INT8 comparison is therefore **calibrated DX-M1 versus uncalibrated Jetson**. It remains valid for speed, but this asymmetry should be noted when citing it.
 
 ### 5-5. FastSAM input resolutions differ
 
@@ -294,10 +304,17 @@ docs/
   methodology.md    Tools, procedures, comparison conditions
   models.md         Model sources and conditions
   setup.md          Environment setup
+  qualitative.md    Same-clip depth estimation comparison
 results/
   dx-m1.md          Raspberry Pi 5 + DX-M1 raw measurements
   xavier.md         Jetson AGX Xavier raw measurements
   thor.md           Jetson AGX Thor raw measurements
+media/
+  input_scene.mp4   Input clip (shared)
+  dxm1_int8.mp4     DX-M1 output
+  thor_int8.mp4     Thor output (INT8, calibrated)
+  thor_fp16.mp4     Thor output (FP16)
+  xavier_int8.mp4   Xavier output (INT8, calibrated)
 en/
   README.md         This document
 ```
