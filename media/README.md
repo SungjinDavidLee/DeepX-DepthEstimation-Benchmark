@@ -19,7 +19,6 @@
   <tr>
     <th>Video 1</th>
     <th>Video 2</th>
-    <th>Video 3</th>
   </tr>
   <tr>
     <td>
@@ -38,7 +37,6 @@
   <tr>
     <th>Video 1</th>
     <th>Video 2</th>
-    <th>Video 3</th>
   </tr>
   <tr>
     <td>
@@ -55,7 +53,6 @@
   <tr>
     <th>Video 1</th>
     <th>Video 2</th>
-    <th>Video 3</th>
   </tr>
   <tr>
     <td>
