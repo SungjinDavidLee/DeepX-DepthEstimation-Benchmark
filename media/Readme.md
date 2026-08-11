@@ -20,3 +20,21 @@
 
 - 무보정 INT8 엔진으로 생성한 영상은 출력이 붕괴하여 포함하지 않았다. 상세는 [docs/qualitative.md](../docs/qualitative.md) 4장 참조
 - 저장소 용량을 고려하여 영상은 15초 길이로 제한했다
+
+
+
+
+https://github.com/user-attachments/assets/61cb63fa-d52b-4d46-a422-060b8b9a8150
+
+
+
+https://github.com/user-attachments/assets/e003c6e3-7b3b-4c54-89a4-908866224dcb
+
+
+
+https://github.com/user-attachments/assets/92e87420-6c8c-4c90-8dcb-8d66cf7f5d4e
+
+
+
+https://github.com/user-attachments/assets/022c8390-b2e4-4702-ae1e-d279b185cd2b
+
