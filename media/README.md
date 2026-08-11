@@ -15,6 +15,20 @@
 
 각 영상 좌상단에 플랫폼명과 실시간 처리량이 표시된다. 이 값은 영상 디코딩·전처리·추론·후처리·인코딩을 포함한 파이프라인 전체 처리량이며, 벤치마크의 가속기 연산 시간과 다르다.
 
+<table>
+  <tr>
+    <td>
+      <video src="./media/input_scene.mp4" width="300" controls></video>
+    </td>
+    <td>
+      <video src="./media/dxm1_int8.mp4" width="300" controls></video>
+    </td>
+    <td>
+      <video src="./media/xavier_int8" width="300" controls></video>
+    </td>
+  </tr>
+</table>
+
 ## 썸네일 생성
 
 루트 README의 영상 비교 표는 `assets/thumb-*.png`를 참조한다. 영상을 넣은 뒤 저장소 루트에서 다음을 실행한다.
