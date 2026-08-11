@@ -67,6 +67,7 @@
       <video src="https://github.com/user-attachments/assets/488c422d-9428-4bd1-a837-6ee93866b8ac" width="300" controls></video>
     </td>
     <td>
+<br>
 
 
 ## 썸네일 생성
