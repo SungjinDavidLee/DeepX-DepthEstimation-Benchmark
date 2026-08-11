@@ -39,6 +39,12 @@ NPU 2: voltage 750 mV, clock 1000 MHz, temperature 37'C
 
 ---
 
+
+
+https://github.com/user-attachments/assets/ab57e8a5-4359-42df-8034-9e2e33f87ce4
+
+
+
 ## 3. 객체 검출 — yolov8-n, 640×640
 
 반복 300회, 워밍업 50.
