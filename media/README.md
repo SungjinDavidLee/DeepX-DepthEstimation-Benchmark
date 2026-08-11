@@ -29,7 +29,7 @@
       <video src="https://github.com/user-attachments/assets/1a9a9362-d7e4-414a-8f29-2a53a2b40882" width="300" controls></video>
     </td>
     <td>
-      <video src="https://github.com/user-attachments/assets/488c422d-9428-4bd1-a837-6ee93866b8ac" width="300" controls></video>
+     
     </td>
   </tr>
 </table>
@@ -53,7 +53,20 @@
 
 </table>
 
-
+<table>
+  <tr>
+    <th>Video 1</th>
+    <th>Video 2</th>
+    <th>Video 3</th>
+  </tr>
+  <tr>
+    <td>
+      <video src="https://github.com/user-attachments/assets/68399634-362c-4de6-b713-28a0f80fd2a0" width="300" controls></video>
+    </td>
+    <td>
+      <video src="https://github.com/user-attachments/assets/488c422d-9428-4bd1-a837-6ee93866b8ac" width="300" controls></video>
+    </td>
+    <td>
 
 
 ## 썸네일 생성
