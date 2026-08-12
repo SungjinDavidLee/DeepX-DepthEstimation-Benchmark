@@ -1,7 +1,4 @@
 
-https://github.com/user-attachments/assets/cdce132e-1bce-4081-a800-5ccdae930157
-<div align="center">
-
 # On-Device Vision Inference Benchmark
 
 **DEEPX DX-M1 · NVIDIA Jetson AGX Xavier · NVIDIA Jetson AGX Thor**
