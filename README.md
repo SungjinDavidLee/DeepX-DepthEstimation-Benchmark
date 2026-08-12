@@ -1,3 +1,5 @@
+
+https://github.com/user-attachments/assets/cdce132e-1bce-4081-a800-5ccdae930157
 <div align="center">
 
 # On-Device Vision Inference Benchmark
@@ -225,6 +227,13 @@ Core 0이 일관되게 가장 짧다. 배치 크기 1에서 코어 간 부하 �
 
 ---
 
+
+
+
+
+
+
+
 ## 7. 동일 영상 비교
 
 동일한 입력 영상 899 프레임을 세 플랫폼에서 각각 처리한 결과다. 모델은 Depth Anything V2 ViT-S (224×224), 정밀도는 INT8로 통일했다.
@@ -237,9 +246,9 @@ Core 0이 일관되게 가장 짧다. 배치 크기 1에서 코어 간 부하 �
 <th width="25%" align="center">AGX Thor · 120 W</th>
 </tr>
 <tr>
-<td align="center"><a href="media/input_scene.mp4"><img src="assets/thumb-input.png" width="100%" alt="입력 영상"></a></td>
+<td align="center"><a href="https://github.com/user-attachments/assets/ece7b75f-39a2-4c46-8437-1dbdd1f2a431"><img src="assets/thumb-input.png" width="100%" alt="입력 영상"></a></td>
 <td align="center"><a href="media/dxm1_int8.mp4"><img src="assets/thumb-dxm1.png" width="100%" alt="DX-M1 결과"></a></td>
-<td align="center"><a href="media/xavier_int8.mp4"><img src="assets/thumb-xavier.png" width="100%" alt="Xavier 결과"></a></td>
+<td align="center"><a href="https://github.com/user-attachments/assets/325cd515-70e6-4b65-89a4-53fe31522893"><img src="assets/thumb-xavier.png" width="100%" alt="Xavier 결과"></a></td>
 <td align="center"><a href="media/thor_int8.mp4"><img src="assets/thumb-thor.png" width="100%" alt="Thor 결과"></a></td>
 </tr>
 <tr>
