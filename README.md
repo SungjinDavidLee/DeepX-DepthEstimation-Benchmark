@@ -247,8 +247,8 @@ Core 0이 일관되게 가장 짧다. 배치 크기 1에서 코어 간 부하 �
 
 <table>
   <tr>
-    <th>Input Scene - RealSense D405 · 15초 · 899 프레임</th>
-    <th>Raspberry Pi 5 + DX-M1 12.6 FPS ,, 추론 75.36 ms</th>
+    <th>Input Scene - RealSense D405 · //15초 · 899 프레임</th>
+    <th>Raspberry Pi 5 + DX-M1 12.6 FPS , 추론 75.36 ms</th>
   </tr>
   <tr>
     <td align="center">
