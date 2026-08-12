@@ -252,10 +252,10 @@ Core 0이 일관되게 가장 짧다. 배치 크기 1에서 코어 간 부하 �
   </tr>
   <tr>
     <td align="center">
-      <video src="https://github.com/user-attachments/assets/68399634-362c-4de6-b713-28a0f80fd2a0" width="400" controls></video>
+      <video src="https://github.com/user-attachments/assets/68399634-362c-4de6-b713-28a0f80fd2a0" width="500" controls></video>
     </td>
     <td align="center">
-      <video src="https://github.com/user-attachments/assets/1a9a9362-d7e4-414a-8f29-2a53a2b40882" width="400" controls></video>
+      <video src="https://github.com/user-attachments/assets/1a9a9362-d7e4-414a-8f29-2a53a2b40882" width="350" controls></video>
     </td>
   </tr>
 </table>
