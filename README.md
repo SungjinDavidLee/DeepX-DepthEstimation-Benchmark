@@ -246,10 +246,39 @@ Core 0이 일관되게 가장 짧다. 배치 크기 1에서 코어 간 부하 �
 <th width="25%" align="center">AGX Thor · 120 W</th>
 </tr>
 <tr>
-<td align="center"><a href="https://github.com/user-attachments/assets/ece7b75f-39a2-4c46-8437-1dbdd1f2a431"><img src="assets/thumb-input.png" width="100%" alt="입력 영상"></a></td>
-<td align="center"><a href="media/dxm1_int8.mp4"><img src="assets/thumb-dxm1.png" width="100%" alt="DX-M1 결과"></a></td>
-<td align="center"><a href="https://github.com/user-attachments/assets/325cd515-70e6-4b65-89a4-53fe31522893"><img src="assets/thumb-xavier.png" width="100%" alt="Xavier 결과"></a></td>
-<td align="center"><a href="media/thor_int8.mp4"><img src="assets/thumb-thor.png" width="100%" alt="Thor 결과"></a></td>
+### Input Scene / DX-M1
+
+<table>
+  <tr>
+    <th>Input Scene</th>
+    <th>Raspberry Pi 5 + DX-M1</th>
+  </tr>
+  <tr>
+    <td align="center">
+      <video src="https://github.com/user-attachments/assets/68399634-362c-4de6-b713-28a0f80fd2a0" width="400" controls></video>
+    </td>
+    <td align="center">
+      <video src="https://github.com/user-attachments/assets/1a9a9362-d7e4-414a-8f29-2a53a2b40882" width="400" controls></video>
+    </td>
+  </tr>
+</table>
+
+### Jetson AGX Xavier / Jetson AGX Thor
+
+<table>
+  <tr>
+    <th>Jetson AGX Xavier · 15 W</th>
+    <th>Jetson AGX Thor · 120 W</th>
+  </tr>
+  <tr>
+    <td align="center">
+      <video src="https://github.com/user-attachments/assets/488c422d-9428-4bd1-a837-6ee93866b8ac" width="400" controls></video>
+    </td>
+    <td align="center">
+      <video src="https://github.com/user-attachments/assets/4306de66-ffda-47a7-9423-78629c6f7554" width="400" controls></video>
+    </td>
+  </tr>
+</table>
 </tr>
 <tr>
 <td align="center"><sub>RealSense D405 · 15초 · 899 프레임</sub></td>
