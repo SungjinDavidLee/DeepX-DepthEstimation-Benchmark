@@ -247,8 +247,8 @@ Core 0이 일관되게 가장 짧다. 배치 크기 1에서 코어 간 부하 �
 
 <table>
   <tr>
-    <th>Input Scene</th>
-    <th>Raspberry Pi 5 + DX-M1</th>
+    <th>Input Scene - RealSense D405 · 15초 · 899 프레임</th>
+    <th>Raspberry Pi 5 + DX-M1 12.6 FPS ,, 추론 75.36 ms</th>
   </tr>
   <tr>
     <td align="center">
@@ -264,8 +264,8 @@ Core 0이 일관되게 가장 짧다. 배치 크기 1에서 코어 간 부하 �
 
 <table>
   <tr>
-    <th>Jetson AGX Xavier · 15 W</th>
-    <th>Jetson AGX Thor · 120 W</th>
+    <th>Jetson AGX Xavier · 15 W   38.2 FPS , 추론 16.83 ms</th>
+    <th>Jetson AGX Thor · 120 W   79.8 FPS , 추론 4.20 ms</th>
   </tr>
   <tr>
     <td align="center">
@@ -278,14 +278,14 @@ Core 0이 일관되게 가장 짧다. 배치 크기 1에서 코어 간 부하 �
 </table>
 </tr>
 <tr>
-<td align="center"><sub>RealSense D405 · 15초 · 899 프레임</sub></td>
-<td align="center"><b>12.6 FPS</b><br><sub>추론 75.36 ms</sub></td>
-<td align="center"><b>38.2 FPS</b><br><sub>추론 16.83 ms</sub></td>
-<td align="center"><b>79.8 FPS</b><br><sub>추론 4.20 ms</sub></td>
+<td align="center"><sub></sub></td>
+<td align="center"><b></b><br><sub></sub></td>
+<td align="center"><b></b><br><sub></sub></td>
+<td align="center"><b></b><br><sub></sub></td>
 </tr>
 </table>
 
-<sub>썸네일을 클릭하면 영상이 재생된다.</sub>
+<sub></sub>
 
 <picture>
   <source media="(prefers-color-scheme: dark)" srcset="assets/pipeline-fps-dark.png">
